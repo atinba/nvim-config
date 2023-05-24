@@ -2,25 +2,26 @@ local options = {
   clipboard = "unnamedplus",
 
   -- Searching
+  smartcase = true,
   ignorecase = true,
   hlsearch = true,
   incsearch = true, 
 
   -- Indenting
-  expandtab = true,
-  shiftwidth = 2,
+  autoindent = true,
+  shiftwidth = 4,
   smartindent = true,
-  tabstop = 2,
-  softtabstop = 2,
+  smarttab = true,
+  softtabstop = 4,
 
   -- Line number
-  rnu = true,
+  relativenumber = true,
   numberwidth = 2,
   scrolloff = 8,
 
   undofile = true,
   updatetime = 300,
-  mouse = "a",
+  -- mouse = "a",
 
   splitbelow = true,
   splitright = true,
