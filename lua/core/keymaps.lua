@@ -31,3 +31,11 @@ keymap("v", "<ESC>", "<NOP>", opts)
 keymap("c", "jk", "<ESC>", opts)
 keymap("c", "kj", "<ESC>", opts)
 keymap("c", "<ESC>", "<NOP>", opts)
+
+-- Telescope
+keymap("n", "<leader>ft", "<cmd>Telescope<cr>", opts)
+keymap("n", "<leader>ff", "<cmd>Telescope find_files<cr>", opts)
+keymap("n", "<leader>fg", "<cmd>Telescope live_grep<cr>", opts)
+keymap("n", "<leader>fb", "<cmd>Telescope buffers<cr>", opts)
+keymap("n", "<leader>fh", "<cmd>Telescope help_tags<cr>", opts)
+keymap("n", "<leader>fm", "<cmd>Telescope man_pages<cr>", opts)
